@@ -252,7 +252,7 @@ export function Service04() {
           <article className="ops-card ops-card--hr">
             <Orb className="ops-card__orb" />
             <h3><span>우주스테이</span> 인력관리</h3>
-            <p>근로계약 · 근퇴관리 · 급여내역을 한 곳에서 연결 <br />직원별 근무 흐름과 인건비를 매출 데이터와 함께 확인</p>
+            <p>근로계약 · 근태관리 · 급여내역을 한 곳에서 연결 <br />직원별 근무 흐름과 인건비를 매출 데이터와 함께 확인</p>
             <div className="ops-panel">
               <strong>이번 달 직원 운영</strong>
               <ul className="staff">

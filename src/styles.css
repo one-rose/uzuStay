@@ -86,8 +86,7 @@ button { font: inherit; color: inherit; border: 0; background: none; cursor: poi
 .header { background: var(--surface); border-bottom: 1px solid var(--line); position: relative; z-index: 5; }
 .header__inner { display: flex; align-items: center; height: 86px; gap: 24px; }
 .header__logo { margin-right: auto; }
-.logo { height: 34px; width: auto; }
-.logo--brand { height: 30px; }
+.logo { height: 32px; width: auto; }
 .header__nav { display: flex; gap: 58px; margin-right: 78px; font-size: 14px; font-weight: 600; color: var(--muted); }
 .header__nav a:hover { color: var(--label); }
 
@@ -369,8 +368,7 @@ button { font: inherit; color: inherit; border: 0; background: none; cursor: poi
 /* ---------- 푸터 ---------- */
 .footer { background: var(--footer); color: var(--footer-text); padding-block: 58px 82px; }
 .footer__top { display: flex; align-items: flex-start; justify-content: space-between; gap: 24px; flex-wrap: wrap; }
-.footer .logo { height: 34px; margin-left: -3px; }
-.footer .logo--brand { height: 30px; margin-left: 0; }
+.footer .logo { height: 32px; }
 .footer__os { margin-top: 7px; font-size: 15.3px; font-weight: 600; }
 .footer__tag { margin-top: 71px; font-size: 15.3px; font-weight: 500; line-height: 21px; color: var(--footer-muted); }
 .footer__tag b { font-weight: 700; }
@@ -459,8 +457,7 @@ body { padding-bottom: 0; }
   .sec-title { font-size: 30px; line-height: 1.25; }
   .pill--lg { height: 30px; padding: 0 16px; font-size: 13.5px; }
   .header__inner { height: 68px; }
-  .logo, .footer .logo { height: 26px; }
-  .logo--brand, .footer .logo--brand { height: 22px; }
+  .logo, .footer .logo { height: 23px; }
   .btn--sm { height: 38px; padding: 0 20px; font-size: 13px; }
   .hero__lead { font-size: 16.5px; line-height: 1.6; margin-left: 0; }
   .hero__cta { width: 100%; }

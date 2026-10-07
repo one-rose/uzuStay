@@ -15,9 +15,8 @@ export const THEMES = [
     id: 'purple',
     code: '원본',
     name: 'Orbit Purple',
-    desc: '홈페이지 시안 원본',
+    desc: '홈페이지 시안 원본 컬러',
     swatch: ['#7037E4', '#DCA1FF', '#411085'],
-    logo: 'original',
     vars: {
       ...base,
       '--ink': '#16131F', '--muted': '#756A7D', '--title': '#411085',
@@ -49,7 +48,6 @@ export const THEMES = [
     name: 'Heritage Blue',
     desc: '헤리티지 블루 + 브레스 블루',
     swatch: ['#023689', '#0CA4F9', '#CFEDFF'],
-    logo: 'brand',
     vars: {
       ...base,
       '--ink': '#0A1626', '--muted': '#5F6B7A', '--title': '#023689',
@@ -81,7 +79,6 @@ export const THEMES = [
     name: 'Flame Gradient',
     desc: '플레임 블루 · 핑크 · 시안 그라데이션',
     swatch: ['#0658E0', '#FE38A9', '#09DFD5'],
-    logo: 'brand',
     logoGradient: ['#2F67DA', '#8A57C6', '#EB4EB1'],
     vars: {
       ...base,
@@ -114,7 +111,6 @@ export const THEMES = [
     name: 'Morning Deep Blue',
     desc: '모닝 딥블루 + 선라이즈 오렌지',
     swatch: ['#1C2B46', '#FF5800', '#DDDDDD'],
-    logo: 'brand',
     vars: {
       ...base,
       '--ink': '#1C2B46', '--muted': '#6B7280', '--title': '#1C2B46',
@@ -146,7 +142,6 @@ export const THEMES = [
     name: 'Blue Violet',
     desc: '블루 #3617CE + 그레이 · 블랙 & 화이트',
     swatch: ['#3617CE', '#A0A0A0', '#000000'],
-    logo: 'brand',
     vars: {
       ...base,
       '--ink': '#000000', '--muted': '#6E6E6E', '--title': '#000000',
@@ -178,7 +173,6 @@ export const THEMES = [
     name: 'Red & Green',
     desc: '레드 #E02D2D + 그린 #4AE68E',
     swatch: ['#E02D2D', '#4AE68E', '#290600'],
-    logo: 'brand',
     vars: {
       ...base,
       '--ink': '#290600', '--muted': '#6F5F5C', '--title': '#490D0D',

@@ -1,5 +1,5 @@
 import React, { useId } from 'react'
-import { BRAND_LOGO, ORIGINAL_LOGO, ORB_MARK, DUO_MARK } from '../logoPaths.js'
+import { BRAND_LOGO, ORB_MARK, DUO_MARK } from '../logoPaths.js'
 import { useTheme } from '../ThemeContext.jsx'
 
 function Mark({ data, className, title, bodyFill = 'currentColor', starFill = 'currentColor', gradient }) {
@@ -20,15 +20,14 @@ function Mark({ data, className, title, bodyFill = 'currentColor', starFill = 'c
   )
 }
 
-/** 워드마크. 원본 시안은 홈페이지 로고, A~E 안은 칼라시스템의 로고를 쓴다. */
+/** 워드마크 — 브랜드 칼라시스템(2026.10.04)의 새 로고. 색만 시안별 토큰을 따른다. */
 export function Logo({ footer = false, className = '' }) {
   const theme = useTheme()
-  const data = theme.logo === 'original' ? ORIGINAL_LOGO : BRAND_LOGO
   return (
     <Mark
-      data={data}
+      data={BRAND_LOGO}
       title="WOOJOO STAY"
-      className={`logo logo--${theme.logo} ${className}`}
+      className={`logo ${className}`}
       bodyFill={footer ? 'var(--logo-footer)' : 'var(--logo)'}
       starFill={footer ? 'var(--logo-footer-star)' : 'var(--logo-star)'}
       gradient={!footer && theme.logoGradient}
